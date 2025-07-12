@@ -156,11 +156,9 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="md:col-span-2">
-              <img 
-                src="/api/placeholder/200/60" 
-                alt="Amekany Logo" 
-                className="logo logo-dark mb-4"
-              />
+            <div className="font-bold text-2xl text-white mb-4">
+              AMEKANY
+            </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Leading South Africa's transition to a circular economy through innovative 
                 plastic recycling technology and sustainable solutions.
