@@ -70,17 +70,24 @@ const Partners = () => {
             Trusted by Leading Companies
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
-            {partnerLogos.map((partner, index) => (
-              <div key={index} className="animate-on-scroll">
-                <div className="bg-white rounded-xl p-6 shadow-sm hover-lift">
-                  <img 
-                    src={partner.logo} 
-                    alt={partner.name}
-                    className="w-full h-8 object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
-                  />
-                </div>
-              </div>
-            ))}
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">Global Packaging</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">EcoTech Industries</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">Innovation Materials</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">Sustainable Solutions</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">Green Manufacturing</div>
+            </div>
+            <div className="bg-white rounded-xl p-6 shadow-sm hover-lift text-center">
+              <div className="text-gray-600 font-semibold">Future Plastics</div>
+            </div>
           </div>
         </div>
 
