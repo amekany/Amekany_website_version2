@@ -23,11 +23,9 @@ const Header = ({ isScrolled }) => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#home" className="block">
-              <img 
-                src="/api/placeholder/200/60" 
-                alt="Amekany Logo" 
-                className={`logo ${isScrolled ? 'logo-light' : 'logo-dark'}`}
-              />
+              <div className={`font-bold text-2xl ${isScrolled ? 'text-gray-900' : 'text-white'} transition-colors`}>
+                AMEKANY
+              </div>
             </a>
           </div>
 
