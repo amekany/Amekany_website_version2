@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import useScrollAnimation from "./hooks/useScrollAnimation";
 
 // Components
 import Header from "./components/Header";
@@ -15,6 +16,9 @@ import Footer from "./components/Footer";
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  
+  // Initialize scroll animations
+  useScrollAnimation();
 
   useEffect(() => {
     const handleScroll = () => {
