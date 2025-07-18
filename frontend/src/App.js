@@ -47,7 +47,7 @@ const Home = () => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/Amekany_website_version">
+      <BrowserRouter basename="/Amekany_website_version2">
         <Routes>
           <Route path="/" element={<Home />}>
             <Route index element={<Home />} />
