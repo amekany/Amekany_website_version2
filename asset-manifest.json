@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Amekany_website_version2/static/css/main.e2571dea.css",
-    "main.js": "/Amekany_website_version2/static/js/main.da698e49.js",
+    "main.js": "/Amekany_website_version2/static/js/main.6c43aed6.js",
     "index.html": "/Amekany_website_version2/index.html",
     "main.e2571dea.css.map": "/Amekany_website_version2/static/css/main.e2571dea.css.map",
-    "main.da698e49.js.map": "/Amekany_website_version2/static/js/main.da698e49.js.map"
+    "main.6c43aed6.js.map": "/Amekany_website_version2/static/js/main.6c43aed6.js.map"
   },
   "entrypoints": [
     "static/css/main.e2571dea.css",
-    "static/js/main.da698e49.js"
+    "static/js/main.6c43aed6.js"
   ]
 }
