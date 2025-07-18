@@ -50,7 +50,6 @@ function App() {
       <BrowserRouter basename="/Amekany_website_version2">
         <Routes>
           <Route path="/" element={<Home />}>
-            <Route index element={<Home />} />
           </Route>
         </Routes>
       </BrowserRouter>
